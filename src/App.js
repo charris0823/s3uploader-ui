@@ -55,8 +55,8 @@ const ServiceNavigation = () => {
                 {type: "divider"},
                 {
                     type: "link",
-                    text: "AWS Solutions Architect",
-                    href: "https://workshops.aws",
+                    text: "Contact-IQ/Readme",
+                    href: "https://contact-iq.com/readme/",
                     external: true
                 }
             ]}
@@ -280,8 +280,8 @@ function App() {
                             utilities={[
                                 {
                                     type: "button",
-                                    text: "AWS",
-                                    href: "https://aws.amazon.com/",
+                                    text: "Contact-IQ Post Call Analysis",
+                                    href: "https://contact-iq.com/pca/",
                                     external: true,
                                     externalIconAriaLabel: " (opens in a new tab)"
                                 },
@@ -292,18 +292,7 @@ function App() {
                                     iconName: "user-profile",
                                     onItemClick: navbarItemClick,
                                     items: [
-                                        {id: "profile", text: "Profile"},
-                                        {id: "preferences", text: "Preferences"},
-                                        {id: "security", text: "Security"},
-                                        {
-                                            id: "feedback",
-                                            text: "Feedback",
-                                            href: "#",
-                                            external: true,
-                                            externalIconAriaLabel:
-                                                " (opens in new tab)"
-                                        },
-                                        {id: "signout", text: "Sign out"}
+                                         {id: "signout", text: "Sign out"}
                                     ]
                                 }
                             ]}
